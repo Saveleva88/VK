@@ -3,8 +3,9 @@ package ru.netology.domain;
 import ru.netology.domain.CommentsInfo;
 import ru.netology.domain.LikesInfo;
 
-public class PostInfo {
+public class Post {
     private int postId;
+    private int ownerId;
     private int userId;
     private int wallId;
     private int date;

@@ -5,5 +5,7 @@ public class CommentsInfo {
     private boolean canComment;
     private int[] canPost;
     private int[] groupsCanPost;
+    private boolean canClose;
+    private boolean canOpen;
 
 }
